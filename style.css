@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: repeat-x;
+}
+
+#main-el {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    background-color: white;
+    margin:  100px auto;
+    /*padding-bottom: 30px;*/
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#price-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 10px;
+}
+
+button {
+    margin: 10px 0px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+#text-el {
+    padding: 20px 30px;
+}
